@@ -1,0 +1,17 @@
+name: StickGame
+version: 1.0
+description: StickGame Minigame
+author: SpeedDev
+main: speeddev.info.stickgame.Main
+
+commands:
+  stickgame:
+    description: all of the stickgame commands!
+
+permissions:
+  stickgame.admin:
+    description: Allows player to set spawns
+    default: op
+  stickgame.player:
+    description: Allows player to join and leave games
+    default: true
